@@ -37,20 +37,20 @@
 
 
 
-        <h2>Table</h2>
+        <h2>TABLE</h2>
 
         <table border="1">
 
             <tr>
                 <th rowspan="2">Team name</th>
-                
+
                 <th colspan="2">First Half</th>
-              
+
                 <th colspan="2">Second Half</th>
             </tr>
 
             <tr>
-                
+
                 <th>Q1</th>
                 <th>Q2</th>
                 <th>Q3</th>
@@ -78,15 +78,20 @@
         <h2>LIST</h2>
 
         <ul>
+
             <head></head>
-            <li>New England Pariots</li>
+            <img src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/NE" width="100px" alt="Patriots Logo">
+            <li><a href="https://www.patriots.com/" target="_blank">New England Pariots</a></li>
             <ul>
                 <li>QB</li>
                 <ul>
                     <li>Tom Brady</li>
                 </ul>
             </ul>
-            <li>Denver Broncos</li>
+
+
+            <img src="	https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DEN" width="100px" alt="Broncos Logo">
+            <li><a href="https://www.denverbroncos.com/" target="_blank">Denver Broncos</a></li>
             <ul>
                 <li>QB</li>
                 <ul>
@@ -95,7 +100,51 @@
                 </ul>
             </ul>
         </ul>
-      
+
+        <h2>FORM</h2>
+
+        <form action="">
+
+            <label for="">First: <input type="text" name="First name"></label>
+            <label for="">Last: <input type="text" name="Last name"></label>
+            <br>
+            <label for="">Favorite Sport:
+                <br>
+                <select name="favoriteSport" id="">
+                    <option value="soccer">Soccer</option>
+                    <option value="football" selected>Football</option>
+                    <option value="basketball">Basketball</option>
+                </select>
+            </label>
+
+            <p>I have:</p>
+            <input type="checkbox" id="played"      name="played">  
+            <label for="played">Played</label>
+            <input type="checkbox" id="attended"    name="attended">
+            <label for="attended">Attended</label>
+            <input type="checkbox" id="coached"     name="coached">
+            <label for="coached">Coached</label>
+            <input type="checkbox" id="bet"         name="bet">
+            <label for="bet">Bet on</label>
+            <br>
+            <p>this sport.</p>
+
+
+
+
+            <p>For this sport i prefer the:</p>
+            <input type="radio" id="amateur" name="preference" value="amateur">
+            <label for="amateur">Amateur</label>
+            <input type="radio" id="college" name="preference" value="college">
+            <label for="college">College</label>
+            <input type="radio" id="professional" name="preference" value="professional">
+            <labelfor="professional">Professional</label>
+            <br>
+            <br>
+            <button type="submit"> Submit Query</button>
+        </form>
+
+
 
 
 
