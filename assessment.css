@@ -18,7 +18,7 @@ table{
     
     }
 
-    tr:first-child th{
+    thead > tr:first-child th{
         color: red;
     }
 
@@ -60,7 +60,9 @@ blockquote{
 
 #teamRoster > li{
     position: relative;
-    color: blue;
+    color: rgb(32, 76, 126);
+
+    
 
     ol li:first-child{
         font-weight: bold;
