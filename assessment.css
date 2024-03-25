@@ -1,0 +1,79 @@
+
+
+h2, h3, h4, h5{
+color:teal;
+font-family: sans-serif;
+}
+
+table{
+    border: black solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+    
+    
+    td, th{
+        border: black solid 1px;
+        /* vertical-align: top; */
+        padding: .3em;
+    
+    }
+
+    tr:first-child th{
+        color: red;
+    }
+
+    
+    tr{
+        background-color: lightgray;
+
+        + tr{
+            background-color: aqua;
+        }
+
+    }
+
+
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    list-style: square;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        background-color: yellow;
+    }
+}
+
+blockquote{
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+    padding: .5em;
+}
+
+#teamRoster > li{
+    position: relative;
+    color: blue;
+
+    ol li:first-child{
+        font-weight: bold;
+    }
+
+    img{
+        position: absolute;
+        z-index: -1;
+        bottom: 3%;
+        opacity: 15%;
+        margin: auto;
+        height: 80%;
+        left: 0;
+
+    }
+}
